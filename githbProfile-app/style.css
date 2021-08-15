@@ -1,0 +1,73 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #2a2a72;
+    color:white;
+}
+input{
+    width: 200px;
+    padding-block: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-inline: 10px;
+    background:#4c2885;
+    color:white;
+}
+input::placeholder{
+    color:white;
+}
+#cardContainer{
+    background: #4c2885;
+    margin-top: 17px;
+    width: 600px;
+    padding-inline: 33px;
+    padding-block: 22px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+    display: none;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: antiquewhite;
+    border: 2px solid #2a2a72;
+    margin-right: 20px;
+}
+#infoSection{
+    width:100%;
+}
+#user-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#followData,#projectSecion{
+    display: flex;
+}
+#followData div { 
+    margin-right: 40px;
+}
+.marginBottom{
+    margin-bottom: 12px;
+}
+#projectSecion{
+    flex-wrap: wrap;
+}
+#projectSecion div{
+    background: #2a2a72;
+    padding-inline: 11px;
+    padding-block: 3px;
+    border-radius: 2px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}

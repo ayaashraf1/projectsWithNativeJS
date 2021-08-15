@@ -1,0 +1,40 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: lightgray;
+    background: url('./weather.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+#locationInput{
+    padding-block: 10px;
+    border-radius: 40px;
+    width: 300px;
+    padding-inline: 15px;
+    border:none;
+    outline:none;
+}
+#degree{
+    font-size: 1.5rem;
+    margin-block: 21px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.weatherData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc{
+    font-weight: normal;
+}

@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    background: url('./bg2.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 6rem;
+}
+.count-down-container-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+.count-down-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 146px;
+}
+.count-down-container span{
+    font-weight: bold;
+    font-size: 3rem;
+}

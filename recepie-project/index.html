@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project title</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="mobile-container">
+        <div id="header">
+            <input type="text" id="search" placeholder="Search" onKeyDown="if(event.keyCode==13) searchForMeal();">
+            <i class="fa fa-search" id="searchBtn" onclick="searchForMeal()"></i>
+        </div>
+        <div id="favourite-Meals">
+            <h2>Favourite Meals</h2>
+            <div id="fav-mealsWrapper">
+            </div>
+        </div>
+        <div id="meals-box">
+        </div>
+        <div id="loading-meal"> Loading Random Meal</div>
+        </div>
+        <div id="popup">
+            <!-- <div id="popup-box">
+            <i class="fa fa-times" onClick="closePopup()"></i>
+             <h2>Meal title</h2>
+            <img src='./img/chickenMarinade.jpg' />
+            <div id="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio alias minus
+                 numquam obcaecati eligendi nisi illo,
+                 iure velit soluta quidem fugit at mollitia! Labore voluptas,
+                  error delectus aliquam at dolorum.</div>
+            <ul>
+                <li>ingredient 1</li>
+                <li>ingredient 2</li>
+                <li>ingredient 3</li>
+                <li>ingredient 4</li>
+
+            </ul> 
+        </div> -->
+        </div>
+        <script src="./scripts.js"></script>
+</body>
+
+</html>

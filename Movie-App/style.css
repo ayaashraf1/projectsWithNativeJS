@@ -1,0 +1,101 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    background-color: #663399;
+    color:white;
+    font-family: sans-serif;
+}
+#header{
+    height: 68px;
+    display: flex;
+    align-items: center;
+    flex-basis: row;
+    padding-inline: 73px;
+    justify-content: flex-end;
+}
+#header #search{
+    padding-block: 6px;
+    width: 250px;
+    border-radius: 39px;
+    border: 2px solid #22254b;
+    outline: none;
+    padding-inline: 11px;
+    background: transparent;
+    color: #fff;
+}
+#header #search::placeholder{
+    color: #7378c5;
+}
+#header #search:focus {
+    background-color: #22254b;
+    outline: none;
+}
+
+#movies-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.movie-box{
+    width: 22%;
+    background: #743bad;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    position: relative;
+
+}
+.movie-box img{
+    width: 100%;
+    height: 278px;
+}
+.movie-box .movie-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    width: 100%;
+}
+.movie-box .movie-info span{
+    padding: 0px 16px;
+}
+.movie-box .movie-info span.rate{
+    background-color: #22254b;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-right: 16px;
+    font-size: 14px;
+}
+.movie-box .overView{
+    color:black;
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    max-height: 81%;
+    overflow: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: opacity 0.5s ease-in;
+    opacity: 0;
+}
+.movie-box:hover .overView{
+    opacity: 1;
+}
+.movie-box .overView h3{
+    margin-top: 0;
+}
+
+.green{
+    color: green;
+}
+.orange{
+    color: orange;
+}
+.red{
+    color: red;
+}

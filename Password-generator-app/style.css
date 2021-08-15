@@ -1,0 +1,70 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:#512DA8;
+}
+#container{
+    width: 300px;
+    height: 320px;
+    background: #2c1c71;
+    padding-inline: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+div.title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4rem;
+}
+#passwordContainer,#passwordLengthContainer,div.title,
+#upperCaseLettersContainer,#lowerCaseLettersContainer,#numbersOptionsContainer,#symbolsOptionsContainer{
+    margin-bottom: 13px;
+}
+#passwordContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background: #271954;
+    border: none;
+    padding-block: 6px;
+}
+#passwordInput{
+    width: 85%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+#passwordContainer i{
+    background: #512da8;
+    padding-block: 9px;
+    width: 10%;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-right: 5px;
+}
+#passwordLengthInput{
+    width: 16%;
+}
+#passwordLengthContainer,#upperCaseLettersContainer,#lowerCaseLettersContainer,#numbersOptionsContainer,#symbolsOptionsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding-block: 6px;
+    background: #512da8;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+}
