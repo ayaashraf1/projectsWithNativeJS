@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body class="Eng-lang" id="body">
+    <div id="header-section">
+     <div id="header-container">
+        <img src="./assets/logo.png" id="logo" />
+         <div id="search-container">
+         <input type="text" placeholder="Search" id="search"  class="Eng-lang-data"  />
+         <input type="text" placeholder="ابحث" id="search"  class="arabic-lang-data"  />
+
+         <button><i class="fa fa-search"></i></button>
+        </div>
+         <div id="language">
+            <label for="languages" class="Eng-lang-data languageLabel">Language:</label>
+            <select name="languages" id="languages" onchange="changeLanguage()">
+              <option value="English" class="Eng-lang-data">English</option>
+              <option value="Arabic" class="arabic-lang-data">العربيه</option>
+              <option value="Arabic" class="Eng-lang-data" >Arabic</option>
+              <option value="English" class="arabic-lang-data">الانجليزيه</option>
+            </select>
+            <label for="languages" class="arabic-lang-data lang">
+                اللغه:</label>
+         </div>
+         <div id="user-name">
+          <span class="Eng-lang-data" >Welcome, Aya!</span>
+          <span class="arabic-lang-data">مرحبا ايه</span>
+
+         </div>
+     </div>
+    </div>
+    <div id="slider-section">
+        <img class="zoom" src="./assets/slider.jpg" />
+
+    </div>
+    <div id="body-section">
+    <div id="filter-section">
+     <div class="filter-data Eng-lang-data"><a>Movies</a></div>
+     <div class="filter-data Eng-lang-data"><a>Series</a></div>
+     <div class="filter-data Eng-lang-data"><a>Plays</a></div>
+     <div class="filter-data Eng-lang-data"><a>Libraries</a></div>
+
+     <div class="filter-data arabic-lang-data"><a>افلام</a></div>
+     <div class="filter-data arabic-lang-data"><a>مسلسلات</a></div>
+     <div class="filter-data arabic-lang-data"><a>مسرحيات</a></div>
+     <div class="filter-data arabic-lang-data"><a>مكتبات</a></div>
+     <div id="add-button">
+        <button class="button Eng-lang-data">Add Movie</button>
+        <button class="button arabic-lang-data">اضافه فيلم</button>
+    </div>
+    </div>
+    <div id="movies-section">
+        <div id="intro-section">
+            <h3>Welcome</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                 ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
+                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    
+        </div>
+        <div class="card">
+            <div class="card-body">
+            <img src="./assets/aladdin.jpg" class="moviePoster" />
+            <div class="MovieTitle Eng-lang-data">aladdin</div>
+            <div class="MovieTitle arabic-lang-data">علاء الدين</div>
+            </div>
+            <span class="ribbon r2"><span>WEB-DL</span></span>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+               <img src="./assets/Avengers-Endgame-avengers.jpg" class="moviePoster" />
+               <div class="MovieTitle Eng-lang-data">Avengers</div>
+               <div class="MovieTitle arabic-lang-data">افانجر</div>               
+            </div>
+            <span class="ribbon r2"><span>WEB-DL</span></span>
+        </div>
+        <div class="card">
+            <div class="card-body">
+            <img src="./assets/beautyAndTheBeast.jfif" class="moviePoster" />
+            <div class="MovieTitle Eng-lang-data">beauty&TheBeast</div>
+            <div class="MovieTitle arabic-lang-data">الجميله والوحش</div>
+            </div>
+            <span class="ribbon r2"><span>WEB-DL</span></span>
+        </div>
+        <div class="card">
+            <div class="card-body">
+            <img src="./assets/harryPoter.jfif" class="moviePoster" />
+            <div class="MovieTitle Eng-lang-data">Harry Poter</div>
+            <div class="MovieTitle arabic-lang-data">هارى بوتر</div>
+
+            </div>
+            <span class="ribbon r2"><span>WEB-DL</span></span>
+        </div>
+        <div class="card">
+            <div class="card-body">
+            <img src="./assets/joker.jpg" class="moviePoster" />
+            <div class="MovieTitle Eng-lang-data">joker</div>
+            <div class="MovieTitle arabic-lang-data">الجوكر</div>
+            </div>
+            <span class="ribbon r2"><span>WEB-DL</span></span>
+        </div>
+        <div class="card">
+            <div class="card-body">
+            <img src="./assets/badBoy.jfif" class="moviePoster" />
+            <div class="MovieTitle Eng-lang-data">badBoy</div>
+            <div class="MovieTitle arabic-lang-data">ولد سيئ</div>
+
+            </div>
+            <span class="ribbon r2"><span>WEB-DL</span></span>
+        </div>
+        <div id="footer-section">
+            <span>Copyright @2021 | Designed With by Your Company Name</span>
+            <br><br>
+            <div id="social-icons">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="homepage.js"></script>
+</body>
+</html>
