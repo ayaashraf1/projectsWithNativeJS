@@ -34,7 +34,7 @@ header p{
 h1{
     text-align: center;
 }
-.number{
+#secretNumber{
     color: var(--black);
     background: var(--white);
     width: 150px;
@@ -47,7 +47,7 @@ h1{
     margin-top: 53px;
     z-index: 10;
 }
-.number::after{
+#secretNumber::after{
     content: '';
     border-top: 5px solid var(--white);
     width: 100%;
